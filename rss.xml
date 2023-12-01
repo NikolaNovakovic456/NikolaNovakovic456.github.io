@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>HogLeather</title>
+        <link>https://nikolanovakovic456.github.io/</link>
+        <description>Follow our new updates.</description>
+        <item>
+            <title>Our products</title>
+            <link>https://nikolanovakovic456.github.io/products.html</link>
+            <description>Follow our new services and sales.</description>
+        </item>
+        <item>
+            <title>Contact</title>
+            <link>https://nikolanovakovic456.github.io/contact.html</link>
+            <description>Follow our updates on our shop.</description>
+        </item>
+    </channel>
+</rss>
