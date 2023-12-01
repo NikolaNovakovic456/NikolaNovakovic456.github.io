@@ -1,0 +1,504 @@
+*{
+font-family:'EB Garamond', serif;
+padding: 0%;
+margin: 0%;
+text-decoration: none;
+list-style-type: none;
+scroll-behavior: smooth;
+}
+
+body{
+  background-color: #FFF2D8;
+}
+
+#logo{
+  width: 10%;
+}
+#logo img{
+  width: 100%;
+}
+
+.wrap{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% auto;
+ 
+}
+
+ 
+header{
+ width: 100%;
+  margin: 0% auto;
+  background-color:#FFF2D8 ;
+  
+}
+
+.nav ul li{
+  display: inline;
+  margin-right: 25px;
+  
+}
+
+.nav ul li a{
+   color:#113946;
+   font-size: 22px;
+   position: relative;
+}
+
+
+.nav li a::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color:#BCA37F;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.nav li a:hover::after{
+  transform: scaleX(1);
+}
+
+#back-cover{
+  background-image: url("../img/proizvodnja2.jpg");
+  height: 90vh;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proizvodnja2.jpg") left/cover;
+  background-attachment: fixed;
+}
+
+#back-cover h1{
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+#back-cover a{
+  margin-left: 45%;
+  margin-top: 60px;
+  background-color:#FFF2D8 ;
+  padding: 20px;
+  font-size: 25px;
+  transition: 0.4s all;
+  color: #113946;
+  border: 2px solid #113946;
+  
+}
+
+#back-cover a:hover, #product>a:hover{
+ background-color:#113946;
+ color: #BCA37F;
+ border: 2px solid #BCA37F;
+}
+
+#about-us{
+background-color:#FFF2D8;
+text-align: center; 
+margin-top: 40px;
+
+}
+
+#about-us img{
+  width: 350px;
+  height: 400px;
+  border: 5px solid #113946;
+  
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  
+}
+
+.content-text{
+  width: 40%;
+  
+}
+
+.content-text p{
+  text-align:start;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+  
+#about-us h1::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #113946;
+  margin: 5px auto;
+}  
+
+.content-2{
+  display: flex;
+  justify-content: space-around;
+}
+
+#product{
+  
+  background-color: #113946;
+  color:#FFF2D8;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  height: 700px;
+}
+#product h1::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #FFF2D8;
+  margin: 5px auto;
+}
+
+.img-row img{
+  width: 290px;
+  height: 350px;
+  box-shadow: 5px 5px 1px  #BCA37F;
+  transition: 0.3s;
+}
+
+.img-row, .text-row{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.img-row img:hover{
+  transform: scale(1.1);
+}
+
+.text-block{
+  width: 290px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3%;
+}
+
+#product>a{
+  background-color:#FFF2D8 ;
+  padding: 20px;
+  font-size: 25px;
+  transition: 0.4s all;
+  color: #113946;
+  border: 2px solid #113946;
+}
+
+#rate-block{
+  background-color: #FFF2D8;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px auto;
+
+}
+
+.rate-box{
+  height: 200px;
+  width: 600px;
+  background-color: #BCA37F;
+  border: 1px solid;
+  margin: 50px auto;
+  box-shadow: 4px 4px 4px #113946;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 20px;
+}
+#rate-block h1::after, #author h1::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #113946;
+  margin: 5px auto;
+}
+.rate-box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-position: 100% 20% ;
+  object-fit: cover;
+  border: 1px solid;
+  }
+
+  .rate-box p{
+    font-weight: 400;
+  }
+
+  .fa-star{
+    color: rgb(248, 248, 50);
+    margin-top: 20px;
+  }
+  
+  #footer-block{
+    height: 150px;
+    background-color: #113946;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .newsletter{
+    color: #FFF2D8;
+    
+  }
+  
+  .newsletter button{
+    color: #BCA37F;
+    border: 1px solid #BCA37F;;
+
+   
+  }
+  .copyright,.social-media h3,.social-media ul li{
+    color: #FFF2D8;
+  }
+
+  .copyright{
+    text-align: center;
+  }
+
+  .copyright img{
+    width: 100px;
+    height: 70px;
+  }
+
+  #back-cover-author{
+    background-image: url("../img/pozadina2.jpg");
+    height: 90vh;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pozadina2.jpg") left/cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #back-cover-author h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 25%;
+    margin-bottom: 40px;
+    font-size: 50px;
+    
+  }
+  
+  .fa-arrow-down{
+    color: azure;
+    font-size: 60px;
+  }
+
+  .arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+  }
+
+  #author img{
+    width: 30%;
+    height: 20%;
+    border: #BCA37F 5px solid;
+    margin-top: 30px;
+  }
+
+  #author-info{
+    height: 400px;
+    width: 45%;
+    background-color: #BCA37F;
+    padding: 12px;
+    margin-top: 30px;
+    
+
+  }
+  #author{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  #author-wrap{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #product-img{
+    height: 230px;
+    background-image: url("../img/pozadina4.jpg");
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pozadina4.jpg") left/cover;
+    text-align: center;
+    
+  }
+
+  #product-img2{
+    height: 230px;
+    background-image: url("../img/pozadina5.jpg");
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pozadina5.jpg") left/cover;
+    text-align: center;
+  }
+
+  #product-img2 h1{
+    color: whitesmoke;
+    padding-top: 8%;
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+
+  #product-img3 h1{
+    color: whitesmoke;
+    padding-top: 5%;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  #product-img3{
+    height: 200px;
+    background-image: url("../img/proizvod2.jpg");
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proizvod2.jpg") left/cover;
+    text-align: center;
+  }
+
+
+  #product-img h1{
+    color: whitesmoke;
+    padding-top: 8%;
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+
+  #product-view{
+    height: 500px;
+    background-color: #BCA37F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .products{
+    width: 25%;
+    height: 350px;
+    background-color:whitesmoke ;
+    text-align: center;
+    padding: 10px;
+    border: #113946 2px solid;
+    
+  }
+
+  .products img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border: #113946 1px solid;
+    transition: 0.3s;
+  }
+
+  .products h4,p{
+    font-style: italic;
+  }
+
+  .products button{
+    border: none;
+    background-color: #113946;
+    color:whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+
+  }
+
+  .products button:hover{
+    background-color: #BCA37F;
+  }
+  .products img:hover{
+    transform: scale(0.9);
+  }
+
+  #form-block{
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-row textarea{
+    width: 100%;
+  }
+
+  .form-row{
+    padding: 10px;
+  }
+
+  #form-block input{
+    padding: 10px;
+  }
+
+  
+#form-block input[type="submit"]{
+    margin: 0px auto;
+    display: block;
+    padding: 10px 50px;
+    background-color: #113946;
+    color: #BCA37F;
+    border: 1px solid #BCA37F;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+#form-block input[type="submit"]:hover{
+  background-color: #BCA37F;
+  color: #113946;
+  border: 1px solid #113946;
+}
+#back-cover-contact{
+  background-image: url("../img/pozadina6.jpg");
+  height: 90vh;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pozadina6.jpg") left/cover;
+  background-attachment: fixed;
+}
+
+#back-cover-contact h1{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 20%;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.fa-brands, .fa-solid{
+  color: #FFF2D8;
+}
+
+
+  
+
+
+
+
+
+
+
+ 
+
+  
+ 
+
+
+ 
+
+
+
+
+ 
+  
